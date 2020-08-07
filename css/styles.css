@@ -11,7 +11,7 @@ body {
 
 nav {
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     left: 0;
     right: 0;
     font-family: 'Lora', serif;
