@@ -100,6 +100,12 @@ html {
   max-width: 100%;
 }
 
+@media (max-width:480px) {
+  .col {
+      flex-basis: unset;
+  }
+}
+
 .col-auto {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
