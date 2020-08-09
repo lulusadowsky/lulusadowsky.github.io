@@ -273,6 +273,11 @@ footer {
         padding: 4px;
         display: inline-flex;
     }
+    
+    .top-container {
+        width: 90vw;
+        margin: 10px 20px 10px 20px;
+    }
 
     .works h2 {
         text-align: center;
