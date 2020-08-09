@@ -261,7 +261,7 @@ footer {
 
 @keyframes contactpic {
     30% {
-        transform: translateX(170%);
+        transform: translateX(130%);
     }
 
 }
