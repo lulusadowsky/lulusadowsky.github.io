@@ -265,3 +265,33 @@ footer {
     }
 
 }
+
+@media (max-width:480px) {
+ 
+
+    .navigation {
+        padding: 4px;
+        display: inline-flex;
+    }
+
+    .works h2 {
+        text-align: center;
+    }
+    .extra-gutters {
+        padding: 0px 0px 40px;
+        margin: 5px;
+    }
+    .works h4 {
+        display: none;
+    
+    }
+
+    .works-img {
+        display: none;
+    }
+
+    footer {
+        margin-top: 20px;
+        width: 105%
+    }
+}
