@@ -19,6 +19,50 @@ nav {
     background-color: #ffd1dc;
 }
 
+nav label {
+    color: #fff;
+    padding: 7px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  nav label, #hamburger {
+    display: none;
+  }
+
+ /* .navigation {
+    display: flex;
+    flex-direction: row;
+  } */
+ .navigation a {
+    color: #fff;
+    padding: 0px;
+    font-size: 22px;
+    text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    transition: all ease 0.3s;
+  }
+ .navigation a:hover {
+    background: #d3d0d0;
+  }
+
+  @media only screen and (max-width: 600px) {
+    nav label {
+      display: inline-block;
+    }
+  .navigation {
+      flex-direction: column;
+    }
+   .navigation {
+      display: none;
+    }
+    nav input:checked ~ .navigation {
+      display: flex;
+    }
+  }
+
+
 h1, h2, h3, h4, h5 {
     font-family: 'Lora', serif;
 }
