@@ -310,7 +310,7 @@ footer {
 
 }
 
-@media (max-width:480px) {
+@media (max-width:767px) {
  
 
     .navigation {
@@ -342,4 +342,11 @@ footer {
         margin-top: 20px;
         width: 100%
     }
+}
+
+@media (max-width:480px) {
+    .img-margin {
+        display: none;
+    }
+
 }
